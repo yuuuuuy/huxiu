@@ -9,6 +9,8 @@ import scrapy
 
 
 class HuxiuItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    title = scrapy.Field()   # 标题
+    link = scrapy.Field()    # 链接
+    desc = scrapy.Field()    # 简述
+    post_time = scrapy.Field()    # 发布时间
+
